@@ -3,18 +3,24 @@
 
 This repository contains the official WenetSpeech-Wu dataset, the WenetSpeech-Wu benchmark, and related models.
 
-<div align="center"><img width="800px" src="figs/overview1.png" /></div>
+<div align="center"><img width="800px" src="figs/overview2.png" /></div>
 
-## 📢 Demo Page
-🚀 An online demo page with audio samples and result visualizations is now live.  
-👉 **Visit the demo here:** [Demo Page](https://anonymous.4open.science/w/WenetSpeechWu-Demo-Page-51A8/)
+## 📢 Demo Page 
+
+The demo page provides audio samples.  
+👉 **Demo:** [Demo Page](https://anonymous.4open.science/w/WenetSpeechWu-Demo-Page-51A8/)
+
+*Note:* The page is hosted via an anonymous link and may load slowly or temporarily return 404 errors.  
+Please refresh the page and wait a moment if this occurs.
+
 
 ## Download
-* The WenetSpeech-Wu dataset is available at [WenetSpeech-Wu](README.md).
-* The WenetSpeech-Wu benchmark is available at [WenetSpeech-Wu-Bench](Benchmark/README.md).
-* The ASR and understanding models are available at [WSWu-Understanding](Understanding/README.md).
-* The TTS and instruct TTS models are available at [WSWu-Generation](Generation/README.md).
+* The WenetSpeech-Wu dataset will be available at [WenetSpeech-Wu](README.md).
+* The WenetSpeech-Wu benchmark will be  available at [WenetSpeech-Wu-Bench](Benchmark/README.md).
+* The ASR and understanding models will be available at [WSWu-Understanding](Understanding/README.md).
+* The TTS and instruct TTS models will be available at [WSWu-Generation](Generation/README.md).
 
+*Note:* Due to confidentiality constraints, the specific links cannot be shared at this stage and will be made available after the double-blind review process.
 
 
 ## Dataset
@@ -32,13 +38,12 @@ WenetSpeech-Wu is the first large-scale Wu dialect speech corpus with multi-dime
 
 We introduce WenetSpeech-Wu-Bench, the first publicly available, manually curated benchmark for Wu dialect speech processing, covering ASR, Wu-to-Mandarin AST, speaker attributes, emotion recognition, TTS, and instruct TTS, and providing a unified platform for fair evaluation.
 
-It includes:
-- **ASR:** 9.75 hours of Wu–Mandarin code-mixed speech (CER)
-- **Wu → Mandarin AST:** 3,000 utterances (4.4 hours) with verified translations (BLEU)
-- **Speaker & Emotion Recognition:** gender, age (4 groups), and 5 emotions (accuracy)
-- **TTS:** 242 Wu dialect sentences with 12 speakers  
-  *Metrics:* speaker similarity, intelligibility (CER), IMOS / SMOS / AMOS
-- **Instruct TTS:** prosodic (speaking rate & pitch) and emotional
+- **ASR:** Wu dialect ASR (9.75 hour, Shanghainese, Suzhounese, and Mandarin code-mixed speech). Evaluated by CER.
+- **Wu→Mandarin AST:** Speech translation from Wu dialects to Mandarin (3k utterances, 4.4h). Evaluated by BLEU.
+- **Speaker & Emotion:** Speaker gender/age prediction and emotion recognition on Wu speech. Evaluated by classification accuracy.
+- **TTS:** Wu dialect TTS with speaker prompting (242 sentences, 12 speakers). Evaluated by speaker similarity, CER, and MOS.
+- **Instruct TTS:** Instruction-following TTS with prosodic and emotional control. Evaluated by automatic accuracy and subjective MOS.
+
 
 ## Data construction pipeline for WenetSpeech-Wu
 
@@ -51,7 +56,7 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
 
 ## ASR & Speech Understanding Inference
 
-This section describes the inference procedures for different speech models used in our experiments, including **Conformer-U2pp**, **Whisper-Medium**, **Step-Audio2-Wu-ASR** and **Step-Audio2-Wu-Und**..  
+This section describes the inference procedures for different speech models used in our experiments, including **Conformer-U2pp-Wu**, **Whisper-Medium-Wu**, **Step-Audio2-Wu-ASR** and **Step-Audio2-Wu-Und**.
 Different models are trained and inferred under different frameworks, with corresponding data formats.
 
 ---
