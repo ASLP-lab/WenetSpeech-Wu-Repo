@@ -10,8 +10,6 @@ This repository contains the official WenetSpeech-Wu dataset, the WenetSpeech-Wu
 The demo page provides audio samples.  
 👉 **Demo:** [Demo Page](https://anonymous.4open.science/w/WenetSpeechWu-Demo-Page-51A8/)
 
-*Note:* The page is hosted via an anonymous link and may load slowly or temporarily return 404 errors.  
-Please refresh the page and wait a moment if this occurs.
 
 
 ## Download
@@ -20,7 +18,6 @@ Please refresh the page and wait a moment if this occurs.
 * The ASR and understanding models will be available at [WSWu-Understanding](Understanding/README.md).
 * The TTS and instruct TTS models will be available at [WSWu-Generation](Generation/README.md).
 
-*Note:* Due to confidentiality constraints, the specific links cannot be shared at this stage and will be made available after the double-blind review process.
 
 
 ## Dataset
