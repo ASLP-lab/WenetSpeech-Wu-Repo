@@ -42,7 +42,7 @@ We introduce WenetSpeech-Wu-Bench, the first publicly available, manually curate
 - **Instruct TTS:** Instruction-following TTS with prosodic and emotional control. Evaluated by automatic accuracy and subjective MOS.
 
 
-## Data construction pipeline for WenetSpeech-Wu
+## Data Construction Pipeline for WenetSpeech-Wu
 
 We propose an automatic and scalable pipeline for constructing a large-scale Wu dialect speech dataset with multi-dimensional annotations, as illustrated in the figure below. The pipeline is designed to enable efficient data collection, robust automatic transcription, and diverse downstream annotations.
 <p align="center">
@@ -163,7 +163,7 @@ python wenet/bin/recognize.py --gpu 0 \
 ```
 
 
-## Step-Audio2-Wu-ASR and Step-Audio2-Wu-Und
+## Step-Audio2-Wu-ASR & Step-Audio2-Wu-Und
 
 ```bash
 model_dir=Step-Audio-2-mini 
@@ -197,11 +197,11 @@ The inference script is identical to that of Step-Audio2 described above; only t
  -->
 ## TTS Inference
 
-### Model download
 coming soon
 
 
 ## Contributors
 ## Citation
+
 ## Contact
 
