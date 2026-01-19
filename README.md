@@ -8,7 +8,7 @@ This repository contains the official WenetSpeech-Wu dataset, the WenetSpeech-Wu
 ## 📢 Demo Page 
 
 The demo page provides audio samples.  
-👉 **Demo:** [Demo Page]()
+👉 **Demo:** [Demo Page](https://hujingbin1.github.io/WenetSpeechWu-Demo-Page/)
 
 
 
