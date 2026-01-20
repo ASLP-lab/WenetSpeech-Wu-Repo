@@ -237,8 +237,10 @@ The inference script is identical to that of Step-Audio2 described above; only t
 
 coming soon
 
-
 ## Contributors
+
+| <img src="https://raw.githubusercontent.com/wenet-e2e/wenet-contributors/main/colleges/nwpu.png" width="200px"> | <img src="https://raw.githubusercontent.com/wenet-e2e/wenet-contributors/main/companies/aishelltech.png" width="200px">  | <img src="figs/wenet.png" width="200px"> | <img src="figs/XJTLU_Logo.jpg" width="200px"> |
+| ---- | ---- | ---- | ---- |
 ## Citation
 Please cite our paper if you find this work useful:
 ```
