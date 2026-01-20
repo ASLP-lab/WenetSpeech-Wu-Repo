@@ -1,5 +1,34 @@
+📢：**Good news! 21,800 hours of multi-label Cantonese speech data are also available at [⭐WenetSpeech-Yue⭐](https://github.com/ASLP-lab/WenetSpeech-Yue).**
 
 # WenetSpeech-Wu: Datasets, Benchmarks, and Models for a Unified Chinese Wu Dialect Speech Processing Ecosystem
+
+<p align="center">
+  Chengyou Wang<sup>1</sup>*, 
+  Mingchen Shao<sup>1</sup>*, 
+  Jingbin Hu<sup>1</sup>*, 
+  Zeyu Zhu<sup>1</sup>*, 
+  Hongfei Xue<sup>1</sup>, 
+  Bingshen Mu<sup>1</sup>, 
+  Xin Xu<sup>2</sup>, 
+  Xingyi Duan<sup>6</sup>, 
+  Binbin Zhang<sup>3</sup>, 
+  Pengcheng Zhu<sup>3</sup>, 
+  Chuang Ding<sup>4</sup>, 
+  Xiaojun Zhang<sup>5</sup>, 
+  Hui Bu<sup>2</sup>, 
+  Lei Xie<sup>1</sup><sup>†</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup> Audio, Speech and Language Processing Group (ASLP@NPU), Northwestern Polytechnical University <br>
+  <sup>2</sup> Beijing AISHELL Technology Co., Ltd. <br>
+  <sup>3</sup> WeNet Open Source Community <br>
+  <sup>4</sup> Moonstep AI <br>
+  <sup>5</sup> Xi'an Jiaotong-Liverpool University <br>
+  <sup>6</sup> YK Pao School
+</p>
+
+
 
 This repository contains the official WenetSpeech-Wu dataset, the WenetSpeech-Wu benchmark, and related models.
 
