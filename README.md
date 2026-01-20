@@ -234,6 +234,7 @@ The inference script is identical to that of Step-Audio2 described above; only t
 ```
  -->
 ## TTS Inference
+coming soon
 
 ### CosyVoice2-SFT
 
