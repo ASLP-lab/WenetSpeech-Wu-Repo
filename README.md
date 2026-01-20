@@ -255,9 +255,9 @@ Please cite our paper if you find this work useful:
 ```
 ## Contact
 
-If you are interested in leaving a message to our research team, feel free to email asd6404112a@mail.nwpu.edu.cn or .
+If you are interested in leaving a message to our research team, feel free to email asd6404112a@mail.nwpu.edu.cn or mcshao@mail.nwpu.edu.cn .
 
 
 <p align="center">
-    <img src="src/figs/npu@aslp.jpeg" width="500"/>
+    <img src="figs/npu@aslp.jpeg" width="500"/>
 </p
