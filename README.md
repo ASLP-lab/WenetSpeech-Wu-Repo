@@ -28,6 +28,15 @@
   <sup>6</sup> YK Pao School
 </p>
 
+<p align="center">
+📑 <a href="https://arxiv.org/abs/2601.11027">Paper</a> &nbsp&nbsp | &nbsp&nbsp 
+🐙 <a href="https://github.com/ASLP-lab/WenetSpeech-Wu-Repo">GitHub</a> &nbsp&nbsp | &nbsp&nbsp 
+<!-- 🤗 <a href="">HuggingFace</a> -->
+<br>
+<!-- 🖥️ <a href="">HuggingFace Space</a> &nbsp&nbsp | &nbsp&nbsp  -->
+🎤 <a href="https://hujingbin1.github.io/WenetSpeechWu-Demo-Page/">Demo Page</a> &nbsp&nbsp | &nbsp&nbsp 
+💬 <a href="https://github.com/ASLP-lab/WenetSpeech-Wu-Repo?tab=readme-ov-file#contact">Contact Us</a>
+</p>
 
 
 This repository contains the official WenetSpeech-Wu dataset, the WenetSpeech-Wu benchmark, and related models.
@@ -231,6 +240,24 @@ coming soon
 
 ## Contributors
 ## Citation
+Please cite our paper if you find this work useful:
+```
+@misc{wang2026wenetspeechwudatasetsbenchmarksmodels,
+      title={WenetSpeech-Wu: Datasets, Benchmarks, and Models for a Unified Chinese Wu Dialect Speech Processing Ecosystem}, 
+      author={Chengyou Wang and Mingchen Shao and Jingbin Hu and Zeyu Zhu and Hongfei Xue and Bingshen Mu and Xin Xu and Xingyi Duan and Binbin Zhang and Pengcheng Zhu and Chuang Ding and Xiaojun Zhang and Hui Bu and Lei Xie},
+      year={2026},
+      eprint={2601.11027},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2601.11027}, 
+}
 
+```
 ## Contact
 
+If you are interested in leaving a message to our research team, feel free to email asd6404112a@mail.nwpu.edu.cn or .
+
+
+<p align="center">
+    <img src="src/figs/npu@aslp.jpeg" width="500"/>
+</p
