@@ -35,7 +35,7 @@
 <!-- 🤗 <a href="">HuggingFace</a> -->
 <br>
 <!-- 🖥️ <a href="">HuggingFace Space</a> &nbsp&nbsp | &nbsp&nbsp  -->
-🎤 <a href="https://hujingbin1.github.io/WenetSpeechWu-Demo-Page/">Demo Page</a> &nbsp&nbsp | &nbsp&nbsp 
+🎤 <a href="https://hujingbin1.github.io/WenetSpeechWu-Demo-Page-Public/">Demo Page</a> &nbsp&nbsp | &nbsp&nbsp 
 💬 <a href="https://github.com/ASLP-lab/WenetSpeech-Wu-Repo?tab=readme-ov-file#contact">Contact Us</a>
 </p>
 
