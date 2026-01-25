@@ -95,6 +95,7 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
 </p>
 
 ## ASR & Understanding Leaderboard
+Bold and underlined values denote the best and second-best results.
 
 <p align="center">
 <table align="center“ border="0" cellspacing="0" cellpadding="6" style="border-collapse:collapse; margin:auto;">
@@ -248,6 +249,163 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
 </p>
 
 ## TTS and Instruct TTS Leaderboard
+<p align="center">
+<table border="0" cellspacing="0" cellpadding="6" style="border-collapse:collapse;">
+  <tr>
+    <th align="left">Model</th>
+    <th align="center">CER (%)↓</th>
+    <th align="center">SIM ↑</th>
+    <th align="center">IMOS ↑</th>
+    <th align="center">SMOS ↑</th>
+    <th align="center">AMOS ↑</th>
+    <th align="center">CER (%)↓</th>
+    <th align="center">SIM ↑</th>
+    <th align="center">IMOS ↑</th>
+    <th align="center">SMOS ↑</th>
+    <th align="center">AMOS ↑</th>
+  </tr>
+
+  <tr>
+    <td align="left">Qwen3-TTS†</td>
+    <td align="center"><ins>5.95</ins></td>
+    <td align="center">--</td>
+    <td align="center"><ins>4.35</ins></td>
+    <td align="center">--</td>
+    <td align="center"><ins>4.19</ins></td>
+    <td align="center"><ins>16.45</ins></td>
+    <td align="center">--</td>
+    <td align="center"><ins>4.03</ins></td>
+    <td align="center">--</td>
+    <td align="center"><b>3.91</b></td>
+  </tr>
+
+  <tr>
+    <td align="left">DiaMoE-TTS</td>
+    <td align="center">57.05</td>
+    <td align="center">0.702</td>
+    <td align="center">3.11</td>
+    <td align="center">3.43</td>
+    <td align="center">3.52</td>
+    <td align="center">82.52</td>
+    <td align="center">0.587</td>
+    <td align="center">2.83</td>
+    <td align="center">3.14</td>
+    <td align="center">3.22</td>
+  </tr>
+
+  <tr>
+    <td align="left">CosyVoice2</td>
+    <td align="center">10.33</td>
+    <td align="center">0.713</td>
+    <td align="center">3.83</td>
+    <td align="center">3.71</td>
+    <td align="center">3.84</td>
+    <td align="center">82.49</td>
+    <td align="center"><ins>0.618</ins></td>
+    <td align="center">3.24</td>
+    <td align="center">3.42</td>
+    <td align="center">3.37</td>
+  </tr>
+
+  <tr>
+    <td align="left" style="background-color:#dfd;">CosyVoice2-Wu-CPT</td>
+    <td align="center">6.35</td>
+    <td align="center"><b>0.727</b></td>
+    <td align="center">4.01</td>
+    <td align="center"><b>3.84</b></td>
+    <td align="center">3.92</td>
+    <td align="center">32.97</td>
+    <td align="center"><b>0.620</b></td>
+    <td align="center">3.72</td>
+    <td align="center"><b>3.55</b></td>
+    <td align="center">3.63</td>
+  </tr>
+
+  <tr>
+    <td align="left" style="background-color:#dfd;">CosyVoice2-Wu-SFT</td>
+    <td align="center">6.19</td>
+    <td align="center"><ins>0.726</ins></td>
+    <td align="center">4.32</td>
+    <td align="center"><ins>3.78</ins></td>
+    <td align="center">4.11</td>
+    <td align="center">25.00</td>
+    <td align="center">0.601</td>
+    <td align="center">3.96</td>
+    <td align="center"><ins>3.48</ins></td>
+    <td align="center">3.76</td>
+  </tr>
+
+  <tr>
+    <td align="left" style="background-color:#dfd;">CosyVoice2-Wu-SS*</td>
+    <td align="center"><b>5.42</b></td>
+    <td align="center">--</td>
+    <td align="center"><b>4.37</b></td>
+    <td align="center">--</td>
+    <td align="center"><b>4.21</b></td>
+    <td align="center"><b>15.45</b></td>
+    <td align="center">--</td>
+    <td align="center"><b>4.04</b></td>
+    <td align="center">--</td>
+    <td align="center"><ins>3.88</ins></td>
+  </tr>
+</table>
+</p>
+
+<p align="center">
+<table border="0" cellspacing="0" cellpadding="6" style="border-collapse:collapse;">
+  <tr>
+    <th align="left">Type</th>
+    <th align="center">Metric</th>
+    <th align="center">CosyVoice2-Wu-SFT</th>
+    <th align="center">CosyVoice2-Wu-instruct</th>
+  </tr>
+
+  <tr>
+    <td align="left" rowspan="5">Emotion</td>
+    <td align="center">Happy ↑</td>
+    <td align="center">0.87</td>
+    <td align="center"><b>0.94</b></td>
+  </tr>
+  <tr>
+    <td align="center">Angry ↑</td>
+    <td align="center">0.83</td>
+    <td align="center"><b>0.87</b></td>
+  </tr>
+  <tr>
+    <td align="center">Sad ↑</td>
+    <td align="center">0.84</td>
+    <td align="center"><b>0.88</b></td>
+  </tr>
+  <tr>
+    <td align="center">Surprised ↑</td>
+    <td align="center">0.67</td>
+    <td align="center"><b>0.73</b></td>
+  </tr>
+  <tr>
+    <td align="center">EMOS ↑</td>
+    <td align="center">3.66</td>
+    <td align="center"><b>3.83</b></td>
+  </tr>
+
+  <tr>
+    <td align="left" rowspan="3">Prosody</td>
+    <td align="center">Pitch ↑</td>
+    <td align="center">0.24</td>
+    <td align="center"><b>0.74</b></td>
+  </tr>
+  <tr>
+    <td align="center">Speech Rate ↑</td>
+    <td align="center">0.26</td>
+    <td align="center"><b>0.82</b></td>
+  </tr>
+  <tr>
+    <td align="center">PMOS ↑</td>
+    <td align="center">2.13</td>
+    <td align="center"><b>3.68</b></td>
+  </tr>
+</table>
+</p>
+
 
 ## ASR & Speech Understanding Inference
 
