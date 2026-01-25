@@ -95,8 +95,9 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
 </p>
 
 ## ASR & Understanding Leaderboard
-<div style="text-align:center;">
-<table border="0" cellspacing="0" cellpadding="6" style="border-collapse:collapse; margin:auto;">
+
+<p align="center">
+<table align="center“ border="0" cellspacing="0" cellpadding="6" style="border-collapse:collapse; margin:auto;">
   <tr>
     <th align="left" rowspan="2">Model</th>
     <th align="center" colspan="2">In-House</th>
@@ -204,7 +205,7 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
     <td align="center" style="background-color:#8fd498;">23.85</td>
   </tr>
 </table>
-</div>
+</p>
 
 ## TTS and Instruct TTS Leaderboard
 
