@@ -236,7 +236,7 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
   </tr>
 
   <tr>
-    <td align="left" style="background-color:#dfd;">Step-Audio2-Wu-Und</td>
+    <td align="left" style="background-color:#dfd;">Step-Audio2-Wu-Und⭐</td>
     <td align="center" style="background-color:#dfd;"><b>13.23</b></td>
     <td align="center" style="background-color:#dfd;"><b>53.13</b></td>
     <td align="center" style="background-color:#dfd;"><ins>0.956</ins></td>
