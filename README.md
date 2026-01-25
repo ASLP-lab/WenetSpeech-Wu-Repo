@@ -97,6 +97,7 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
 ## ASR & Understanding Leaderboard
 Bold and underlined values denote the best and second-best results.
 
+ASR results (CER%) on various test sets.
 <p align="center">
 <table align="center“ border="0" cellspacing="0" cellpadding="6" style="border-collapse:collapse; margin:auto;">
   <tr>
@@ -208,6 +209,7 @@ Bold and underlined values denote the best and second-best results.
 </table>
 </p>
 
+Speech understanding performance on WenetSpeech-Wu-Bench.
 <p align="center">
 <table >
   <tr>
@@ -249,6 +251,9 @@ Bold and underlined values denote the best and second-best results.
 </p>
 
 ## TTS and Instruct TTS Leaderboard
+Bold and underlined values denote the best and second-best results.
+
+TTS results on WenetSpeech-Wu-Bench. 
 <p align="center">
 <table border="0" cellspacing="0" cellpadding="6" style="border-collapse:collapse;">
   <tr>
@@ -351,6 +356,7 @@ Bold and underlined values denote the best and second-best results.
 </table>
 </p>
 
+Performance of instruct TTS model.
 <p align="center">
 <table border="0" cellspacing="0" cellpadding="6" style="border-collapse:collapse;">
   <tr>
