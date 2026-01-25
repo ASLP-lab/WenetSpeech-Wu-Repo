@@ -95,36 +95,117 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
 </p>
 
 ## ASR & Understanding Leaderboard
-**ASR results (CER%) on various test sets**
 
-> **Row types**  
-> - *Gray*: Open-source baselines  
-> - *Red*: Commercial models  
-> - *Light green*: ASR models trained on WenetSpeech-Wu  
-> - *Dark green*: Annotation models trained on in-house data  
->  
-> **Bold**: best result  <u>Underline</u>: second-best result
+<div style="text-align:center;">
+<table border="0" cellspacing="0" cellpadding="6" style="border-collapse:collapse;">
+  <tr>
+    <th align="left" rowspan="2">Model</th>
+    <th align="center" colspan="2">In-House</th>
+    <th align="center">WS-Wu-Bench</th>
+  </tr>
+  <tr>
+    <th align="center">Dialogue</th>
+    <th align="center">Reading</th>
+    <th align="center">ASR</th>
+  </tr>
 
-| Model | In-House (Dialogue) | In-House (Reading) | WS-Wu-Bench (ASR) | Category |
-|------|--------------------:|-------------------:|------------------:|----------|
-| **ASR Models** |  |  |  |  |
-| Paraformer | 63.13 | 66.85 | 64.92 | Open-source |
-| SenseVoice-small | 29.20 | 31.00 | 46.85 | Open-source |
-| Whisper-medium | 79.31 | 83.94 | 78.24 | Open-source |
-| FireRedASR-AED-L | 51.34 | 59.92 | 56.69 | Open-source |
-| Step-Audio2-mini | 24.27 | 24.01 | 26.72 | Open-source |
-| Qwen3-ASR | 23.96 | 24.13 | 29.31 | Commercial |
-| Tencent-Cloud-ASR | 23.25 | 25.26 | 29.48 | Commercial |
-| Gemini-2.5-pro | 85.50 | 84.67 | 89.99 | Commercial |
-| Conformer-U2pp-Wu | 15.20 | 12.24 | 15.14 | WS-Wu |
-| Whisper-medium-Wu | 14.19 | 11.09 | <u>14.33</u> | WS-Wu |
-| Step-Audio2-Wu-ASR | <u>8.68</u> | 7.86 | **12.85** | WS-Wu |
-| **Annotation Models** |  |  |  |  |
-| Dolphin-small | 24.78 | 27.29 | 26.93 | Open-source |
-| TeleASR | 29.07 | 21.18 | 30.81 | Commercial |
-| Step-Audio2-FT | **8.02** | **6.14** | 15.64 | In-house |
-| Tele-CTC-FT | 11.90 | <u>7.23</u> | 23.85 | In-house |
+  <tr><td align="left" colspan="4"><b>ASR Models</b></td></tr>
+  <tr>
+    <td align="left" style="background-color:#eee;">Paraformer</td>
+    <td align="center" style="background-color:#eee;">63.13</td>
+    <td align="center" style="background-color:#eee;">66.85</td>
+    <td align="center" style="background-color:#eee;">64.92</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#eee;">SenseVoice-small</td>
+    <td align="center" style="background-color:#eee;">29.20</td>
+    <td align="center" style="background-color:#eee;">31.00</td>
+    <td align="center" style="background-color:#eee;">46.85</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#eee;">Whisper-medium</td>
+    <td align="center" style="background-color:#eee;">79.31</td>
+    <td align="center" style="background-color:#eee;">83.94</td>
+    <td align="center" style="background-color:#eee;">78.24</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#eee;">FireRedASR-AED-L</td>
+    <td align="center" style="background-color:#eee;">51.34</td>
+    <td align="center" style="background-color:#eee;">59.92</td>
+    <td align="center" style="background-color:#eee;">56.69</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#eee;">Step-Audio2-mini</td>
+    <td align="center" style="background-color:#eee;">24.27</td>
+    <td align="center" style="background-color:#eee;">24.01</td>
+    <td align="center" style="background-color:#eee;">26.72</td>
+  </tr>
 
+  <tr>
+    <td align="left" style="background-color:#fdd;">Qwen3-ASR</td>
+    <td align="center" style="background-color:#fdd;">23.96</td>
+    <td align="center" style="background-color:#fdd;">24.13</td>
+    <td align="center" style="background-color:#fdd;">29.31</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#fdd;">Tencent-Cloud-ASR</td>
+    <td align="center" style="background-color:#fdd;">23.25</td>
+    <td align="center" style="background-color:#fdd;">25.26</td>
+    <td align="center" style="background-color:#fdd;">29.48</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#fdd;">Gemini-2.5-pro</td>
+    <td align="center" style="background-color:#fdd;">85.50</td>
+    <td align="center" style="background-color:#fdd;">84.67</td>
+    <td align="center" style="background-color:#fdd;">89.99</td>
+  </tr>
+
+  <tr>
+    <td align="left" style="background-color:#dfd;">Conformer-U2pp-Wu⭐</td>
+    <td align="center" style="background-color:#dfd;">15.20</td>
+    <td align="center" style="background-color:#dfd;">12.24</td>
+    <td align="center" style="background-color:#dfd;">15.14</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#dfd;">Whisper-medium-Wu⭐</td>
+    <td align="center" style="background-color:#dfd;">14.19</td>
+    <td align="center" style="background-color:#dfd;">11.09</td>
+    <td align="center" style="background-color:#dfd;"><ins>14.33</ins></td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#dfd;">Step-Audio2-Wu-ASR⭐</td>
+    <td align="center" style="background-color:#dfd;"><ins>8.68</ins></td>
+    <td align="center" style="background-color:#dfd;">7.86</td>
+    <td align="center" style="background-color:#dfd;"><b>12.85</b></td>
+  </tr>
+
+  <tr><td align="left" colspan="4"><b>Annotation Models</b></td></tr>
+  <tr>
+    <td align="left" style="background-color:#eee;">Dolphin-small</td>
+    <td align="center" style="background-color:#eee;">24.78</td>
+    <td align="center" style="background-color:#eee;">27.29</td>
+    <td align="center" style="background-color:#eee;">26.93</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#fdd;">TeleASR</td>
+    <td align="center" style="background-color:#fdd;">29.07</td>
+    <td align="center" style="background-color:#fdd;">21.18</td>
+    <td align="center" style="background-color:#fdd;">30.81</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#b7e4b0;"><b>Step-Audio2-FT</b></td>
+    <td align="center" style="background-color:#b7e4b0;"><b>8.02</b></td>
+    <td align="center" style="background-color:#b7e4b0;"><b>6.14</b></td>
+    <td align="center" style="background-color:#b7e4b0;">15.64</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#8fd498;">Tele-CTC-FT</td>
+    <td align="center" style="background-color:#8fd498;">11.90</td>
+    <td align="center" style="background-color:#8fd498;"><ins>7.23</ins></td>
+    <td align="center" style="background-color:#8fd498;">23.85</td>
+  </tr>
+</table>
+</div>
 ## TTS and Instruct TTS Leaderboard
 
 ## ASR & Speech Understanding Inference
