@@ -60,7 +60,6 @@ provides audio data samples, ASR and TTS leaderboards, and the TTS samples.
 
 
 ## Dataset
-### WenetSpeech-Wu Overview
 
 <div align="center"><img width="500px" src="figs/overall_v3.drawio.png" /></div>
 
