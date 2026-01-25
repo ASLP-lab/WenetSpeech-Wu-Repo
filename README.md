@@ -207,7 +207,8 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
 </table>
 </p>
 
-<table border="0" cellspacing="0" cellpadding="6" style="border-collapse:collapse; margin:auto;">
+<p align="center">
+<table >
   <tr>
     <th align="left">Model</th>
     <th align="center">ASR</th>
@@ -236,7 +237,7 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
   </tr>
 
   <tr>
-    <td align="left" style="background-color:#dfd;">Step-Audio2-Wu-Und⭐</td>
+    <td align="left" style="background-color:#dfd;">Step-Audio2-Wu-Und</td>
     <td align="center" style="background-color:#dfd;"><b>13.23</b></td>
     <td align="center" style="background-color:#dfd;"><b>53.13</b></td>
     <td align="center" style="background-color:#dfd;"><ins>0.956</ins></td>
@@ -244,6 +245,7 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
     <td align="center" style="background-color:#dfd;"><b>0.712</b></td>
   </tr>
 </table>
+</p>
 
 ## TTS and Instruct TTS Leaderboard
 
