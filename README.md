@@ -193,7 +193,7 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
     <td align="center" style="background-color:#fdd;">30.81</td>
   </tr>
   <tr>
-    <td align="left" style="background-color:#b7e4b0;"><b>Step-Audio2-FT</b></td>
+    <td align="left" style="background-color:#b7e4b0;">Step-Audio2-FT</td>
     <td align="center" style="background-color:#b7e4b0;"><b>8.02</b></td>
     <td align="center" style="background-color:#b7e4b0;"><b>6.14</b></td>
     <td align="center" style="background-color:#b7e4b0;">15.64</td>
@@ -206,6 +206,44 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
   </tr>
 </table>
 </p>
+
+<table border="0" cellspacing="0" cellpadding="6" style="border-collapse:collapse; margin:auto;">
+  <tr>
+    <th align="left">Model</th>
+    <th align="center">ASR</th>
+    <th align="center">AST</th>
+    <th align="center">Gender</th>
+    <th align="center">Age</th>
+    <th align="center">Emotion</th>
+  </tr>
+
+  <tr>
+    <td align="left" style="background-color:#eee;">Qwen3-Omni</td>
+    <td align="center" style="background-color:#eee;">44.27</td>
+    <td align="center" style="background-color:#eee;">33.31</td>
+    <td align="center" style="background-color:#eee;"><b>0.977</b></td>
+    <td align="center" style="background-color:#eee;"><ins>0.541</ins></td>
+    <td align="center" style="background-color:#eee;"><ins>0.667</ins></td>
+  </tr>
+
+  <tr>
+    <td align="left" style="background-color:#eee;">Step-Audio2-mini</td>
+    <td align="center" style="background-color:#eee;"><ins>26.72</ins></td>
+    <td align="center" style="background-color:#eee;"><ins>37.81</ins></td>
+    <td align="center" style="background-color:#eee;">0.855</td>
+    <td align="center" style="background-color:#eee;">0.370</td>
+    <td align="center" style="background-color:#eee;">0.460</td>
+  </tr>
+
+  <tr>
+    <td align="left" style="background-color:#dfd;">Step-Audio2-Wu-Und</td>
+    <td align="center" style="background-color:#dfd;"><b>13.23</b></td>
+    <td align="center" style="background-color:#dfd;"><b>53.13</b></td>
+    <td align="center" style="background-color:#dfd;"><ins>0.956</ins></td>
+    <td align="center" style="background-color:#dfd;"><b>0.729</b></td>
+    <td align="center" style="background-color:#dfd;"><b>0.712</b></td>
+  </tr>
+</table>
 
 ## TTS and Instruct TTS Leaderboard
 
