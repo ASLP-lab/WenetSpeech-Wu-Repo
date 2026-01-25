@@ -95,9 +95,8 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
 </p>
 
 ## ASR & Understanding Leaderboard
-
 <div style="text-align:center;">
-<table border="0" cellspacing="0" cellpadding="6" style="border-collapse:collapse;">
+<table border="0" cellspacing="0" cellpadding="6" style="border-collapse:collapse; margin:auto;">
   <tr>
     <th align="left" rowspan="2">Model</th>
     <th align="center" colspan="2">In-House</th>
@@ -161,19 +160,19 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
   </tr>
 
   <tr>
-    <td align="left" style="background-color:#dfd;">Conformer-U2pp-Wu⭐</td>
+    <td align="left" style="background-color:#dfd;">Conformer-U2pp-Wu ⭐</td>
     <td align="center" style="background-color:#dfd;">15.20</td>
     <td align="center" style="background-color:#dfd;">12.24</td>
     <td align="center" style="background-color:#dfd;">15.14</td>
   </tr>
   <tr>
-    <td align="left" style="background-color:#dfd;">Whisper-medium-Wu⭐</td>
+    <td align="left" style="background-color:#dfd;">Whisper-medium-Wu ⭐</td>
     <td align="center" style="background-color:#dfd;">14.19</td>
     <td align="center" style="background-color:#dfd;">11.09</td>
     <td align="center" style="background-color:#dfd;"><ins>14.33</ins></td>
   </tr>
   <tr>
-    <td align="left" style="background-color:#dfd;">Step-Audio2-Wu-ASR⭐</td>
+    <td align="left" style="background-color:#dfd;">Step-Audio2-Wu-ASR ⭐</td>
     <td align="center" style="background-color:#dfd;"><ins>8.68</ins></td>
     <td align="center" style="background-color:#dfd;">7.86</td>
     <td align="center" style="background-color:#dfd;"><b>12.85</b></td>
@@ -206,6 +205,7 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
   </tr>
 </table>
 </div>
+
 ## TTS and Instruct TTS Leaderboard
 
 ## ASR & Speech Understanding Inference
