@@ -93,6 +93,39 @@ We propose an automatic and scalable pipeline for constructing a large-scale Wu 
      width=70%>
 </p>
 
+## ASR & Understanding Leaderboard
+**ASR results (CER%) on various test sets**
+
+> **Row types**  
+> - *Gray*: Open-source baselines  
+> - *Red*: Commercial models  
+> - *Light green*: ASR models trained on WenetSpeech-Wu  
+> - *Dark green*: Annotation models trained on in-house data  
+>  
+> **Bold**: best result  <u>Underline</u>: second-best result
+
+| Model | In-House (Dialogue) | In-House (Reading) | WS-Wu-Bench (ASR) | Category |
+|------|--------------------:|-------------------:|------------------:|----------|
+| **ASR Models** |  |  |  |  |
+| Paraformer | 63.13 | 66.85 | 64.92 | Open-source |
+| SenseVoice-small | 29.20 | 31.00 | 46.85 | Open-source |
+| Whisper-medium | 79.31 | 83.94 | 78.24 | Open-source |
+| FireRedASR-AED-L | 51.34 | 59.92 | 56.69 | Open-source |
+| Step-Audio2-mini | 24.27 | 24.01 | 26.72 | Open-source |
+| Qwen3-ASR | 23.96 | 24.13 | 29.31 | Commercial |
+| Tencent-Cloud-ASR | 23.25 | 25.26 | 29.48 | Commercial |
+| Gemini-2.5-pro | 85.50 | 84.67 | 89.99 | Commercial |
+| Conformer-U2pp-Wu | 15.20 | 12.24 | 15.14 | WS-Wu |
+| Whisper-medium-Wu | 14.19 | 11.09 | <u>14.33</u> | WS-Wu |
+| Step-Audio2-Wu-ASR | <u>8.68</u> | 7.86 | **12.85** | WS-Wu |
+| **Annotation Models** |  |  |  |  |
+| Dolphin-small | 24.78 | 27.29 | 26.93 | Open-source |
+| TeleASR | 29.07 | 21.18 | 30.81 | Commercial |
+| Step-Audio2-FT | **8.02** | **6.14** | 15.64 | In-house |
+| Tele-CTC-FT | 11.90 | <u>7.23</u> | 23.85 | In-house |
+
+## TTS and Instruct TTS Leaderboard
+
 ## ASR & Speech Understanding Inference
 
 This section describes the inference procedures for different speech models used in our experiments, including **Conformer-U2pp-Wu**, **Whisper-Medium-Wu**, **Step-Audio2-Wu-ASR** and **Step-Audio2-Wu-Und**.
