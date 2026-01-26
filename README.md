@@ -240,7 +240,7 @@ Speech understanding performance on WenetSpeech-Wu-Bench.
   </tr>
 
   <tr>
-    <td align="left" style="background-color:#dfd;">Step-Audio2-Wu-Und</td>
+    <td align="left" style="background-color:#dfd;">Step-Audio2-Wu-Und⭐</td>
     <td align="center" style="background-color:#dfd;"><b>13.23</b></td>
     <td align="center" style="background-color:#dfd;"><b>53.13</b></td>
     <td align="center" style="background-color:#dfd;"><ins>0.956</ins></td>
@@ -313,7 +313,7 @@ TTS results on WenetSpeech-Wu-Bench.
   </tr>
 
   <tr>
-    <td align="left" style="background-color:#dfd;">CosyVoice2-Wu-CPT</td>
+    <td align="left" style="background-color:#dfd;">CosyVoice2-Wu-CPT⭐</td>
     <td align="center">6.35</td>
     <td align="center"><b>0.727</b></td>
     <td align="center">4.01</td>
@@ -327,7 +327,7 @@ TTS results on WenetSpeech-Wu-Bench.
   </tr>
 
   <tr>
-    <td align="left" style="background-color:#dfd;">CosyVoice2-Wu-SFT</td>
+    <td align="left" style="background-color:#dfd;">CosyVoice2-Wu-SFT⭐</td>
     <td align="center">6.19</td>
     <td align="center"><ins>0.726</ins></td>
     <td align="center">4.32</td>
@@ -341,7 +341,7 @@ TTS results on WenetSpeech-Wu-Bench.
   </tr>
 
   <tr>
-    <td align="left" style="background-color:#dfd;">CosyVoice2-Wu-SS*</td>
+    <td align="left" style="background-color:#dfd;">CosyVoice2-Wu-SS⭐</td>
     <td align="center"><b>5.42</b></td>
     <td align="center">--</td>
     <td align="center"><b>4.37</b></td>
@@ -362,8 +362,8 @@ Performance of instruct TTS model.
   <tr>
     <th align="left">Type</th>
     <th align="center">Metric</th>
-    <th align="center">CosyVoice2-Wu-SFT</th>
-    <th align="center">CosyVoice2-Wu-instruct</th>
+    <th align="center">CosyVoice2-Wu-SFT⭐</th>
+    <th align="center">CosyVoice2-Wu-instruct⭐</th>
   </tr>
 
   <tr>
