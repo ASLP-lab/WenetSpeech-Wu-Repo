@@ -66,7 +66,7 @@ The demo page provides audio data samples, ASR and TTS leaderboards, and the TTS
 <br>
 WenetSpeech-Wu is the first large-scale Wu dialect speech corpus with multi-dimensional annotations. It contains rich metadata and annotations, including transcriptions with confidence scores, Wu-to-Mandarin translations, domain and sub-dialect labels, speaker attributes, emotion annotations, and audio quality measures. The dataset comprises approximately 8,000 hours of speech collected from diverse domains and covers eight Wu sub-dialects. To support a wide range of speech processing tasks with heterogeneous quality requirements, we further adopt a task-specific data quality grading strategy.
 
-<br>
+<br><br>
 <p align="center">
 <img src="figs/Statistical_overview_of_WenetSpeech-Wu.png" 
      alt="Statistical overview of WenetSpeech-Wu"
