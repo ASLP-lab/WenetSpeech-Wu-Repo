@@ -41,9 +41,9 @@
 
 
 This repository contains the official WenetSpeech-Wu dataset, the WenetSpeech-Wu benchmark, and related models.
-
+<br>
 <div align="center"><img width="800px" src="figs/overview2.png" /></div>
-
+<br>
 ## 📢 Demo Page 
 
 The demo page provides audio data samples, ASR and TTS leaderboards, and the TTS samples.
@@ -61,9 +61,9 @@ The demo page provides audio data samples, ASR and TTS leaderboards, and the TTS
 
 
 ## Dataset
-
+<br>
 <div align="center"><img width="500px" src="figs/overall_v3.drawio.png" /></div>
-<br><br>
+<br>
 WenetSpeech-Wu is the first large-scale Wu dialect speech corpus with multi-dimensional annotations. It contains rich metadata and annotations, including transcriptions with confidence scores, Wu-to-Mandarin translations, domain and sub-dialect labels, speaker attributes, emotion annotations, and audio quality measures. The dataset comprises approximately 8,000 hours of speech collected from diverse domains and covers eight Wu sub-dialects. To support a wide range of speech processing tasks with heterogeneous quality requirements, we further adopt a task-specific data quality grading strategy.
 
 <br>
@@ -88,16 +88,20 @@ We introduce WenetSpeech-Wu-Bench, the first publicly available, manually curate
 ## Data Construction Pipeline for WenetSpeech-Wu
 
 We propose an automatic and scalable pipeline for constructing a large-scale Wu dialect speech dataset with multi-dimensional annotations, as illustrated in the figure below. The pipeline is designed to enable efficient data collection, robust automatic transcription, and diverse downstream annotations.
+
+<br>
 <p align="center">
 <img src="figs/pipeline.png" 
      alt="Data construction pipeline for WenetSpeech-Wu"
      width=70%>
 </p>
+<br>
 
 ## ASR & Understanding Leaderboard
 Bold and underlined values denote the best and second-best results.
 
-ASR results (CER%) on various test sets.
+ASR results (CER%) on various test sets
+<br>
 <p align="center">
 <table align="center“ border="0" cellspacing="0" cellpadding="6" style="border-collapse:collapse; margin:auto;">
   <tr>
@@ -209,7 +213,8 @@ ASR results (CER%) on various test sets.
 </table>
 </p>
 
-Speech understanding performance on WenetSpeech-Wu-Bench.
+Speech understanding performance on WenetSpeech-Wu-Bench
+<br>
 <p align="center">
 <table >
   <tr>
