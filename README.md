@@ -70,7 +70,7 @@ WenetSpeech-Wu is the first large-scale Wu dialect speech corpus with multi-dime
 <p align="center">
 <img src="figs/Statistical_overview_of_WenetSpeech-Wu.png" 
      alt="Statistical overview of WenetSpeech-Wu"
-     width=70%>
+     width=80%>
 </p>
 <br>
 
