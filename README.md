@@ -53,10 +53,10 @@ The demo page provides audio data samples, ASR and TTS leaderboards, and the TTS
 
 
 ## Download
-* The WenetSpeech-Wu dataset will be available at [WenetSpeech-Wu](README.md).
-* The WenetSpeech-Wu benchmark will be  available at [WenetSpeech-Wu-Bench](Benchmark/README.md).
-* The ASR and understanding models will be available at [WSWu-Understanding](Understanding/README.md).
-* The TTS and instruct TTS models will be available at [WSWu-Generation](Generation/README.md).
+* The WenetSpeech-Wu dataset will be available at [WenetSpeech-Wu](https://huggingface.co/datasets/ASLP-lab/WenetSpeech-Wu).
+* The WenetSpeech-Wu benchmark will be  available at [WenetSpeech-Wu-Bench](https://huggingface.co/datasets/ASLP-lab/WenetSpeech-Wu-Bench).
+* The ASR and understanding models will be available at [WSWu-Understanding](https://huggingface.co/ASLP-lab/WenetSpeech-Wu-Speech-Understanding).
+* The TTS and instruct TTS models will be available at [WSWu-Generation](https://huggingface.co/ASLP-lab/WenetSpeech-Wu-Speech-Generation).
 
 
 
