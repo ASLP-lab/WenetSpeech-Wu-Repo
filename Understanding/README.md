@@ -196,7 +196,7 @@ The inference data is provided in **JSONL** format, where each line corresponds 
 
 ---
 
-#### Step-Audio2-Wu-ASR & Step-Audio2-Wu-Und
+#### Step-Audio2-Wu-ASR 
 
 The inference data follows a **multi-modal dialogue format**, where audio is provided explicitly:
 
@@ -222,7 +222,7 @@ The inference data follows a **multi-modal dialogue format**, where audio is pro
 * `audios`: path(s) to the audio file(s)
 
 
-#### Speech Understanding Tasks
+#### Step-Audio2-Wu-Und
 
 The inference script is identical to that of Step-Audio2 described above; only the user prompt needs to be modified for different tasks.
 ```json
