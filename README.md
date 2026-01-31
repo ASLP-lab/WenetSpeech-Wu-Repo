@@ -563,9 +563,66 @@ The inference script is identical to that of Step-Audio2 described above; only t
 ```
  -->
 ## TTS Inference
-coming soon
 
-### CosyVoice2-SFT
+### Install
+
+**Clone and install**
+
+- Clone the repo
+``` sh
+git clone https://github.com/ASLP-lab/WenetSpeech-Wu-Repo.git
+cd WenetSpeech-Wu-Repo
+```
+
+- Create Conda env:
+
+``` sh
+conda create -n cosyvoice python=3.10
+conda activate cosyvoice
+pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/ --trusted-host=mirrors.aliyun.com
+
+```
+
+### Model download
+
+``` python
+from huggingface_hub import snapshot_download
+snapshot_download('ASLP-lab/WenetSpeech-Wu-Speech-Generation', local_dir='pretrained_models')
+```
+
+### Usage
+
+
+``` python
+import sys
+sys.path.append('third_party/Matcha-TTS')
+from cosyvoice.cli.cosyvoice import CosyVoice, CosyVoice2
+from cosyvoice.utils.file_utils import load_wav
+import torchaudio
+
+cosyvoice_base = CosyVoice2(
+    'ASLP-lab/WenetSpeech-Wu-Speech-Generation/CosyVoice2',
+    load_jit=False, load_trt=False, load_vllm=False, fp16=False
+)
+
+cosyvoice_sft = CosyVoice2(
+    'ASLP-lab/WenetSpeech-Wu-Speech-Generation/CosyVoice2-Wu-SFT',
+    load_jit=False, load_trt=False, load_vllm=False, fp16=False
+)
+
+
+prompt_speech_16k = load_wav('asset/A0002_S0003_0_G0003_G0004_33.wav', 16000)
+prompt_text = "最少辰光阿拉是做撒呃喃，有钞票就是到银行里保本保息。"
+text = "阿拉屋里向养了一只小猫，伊老欢喜晒太阳的，每日下半天总归蹲辣窗口。"
+
+for i, j in enumerate(cosyvoice_base.inference_instruct2(text, '用上海话说这句话', prompt_speech_16k, stream=False)):
+    torchaudio.save('A0002_S0003_0_G0003_G0004_33_{}.wav'.format(i), j['tts_speech'], cosyvoice.sample_rate)
+
+for i, j in enumerate(cosyvoice_sft.inference_zero_shot(text, prompt_text, prompt_speech_16k , stream=False)):
+    torchaudio.save('A0002_S0003_0_G0003_G0004_33_{}.wav'.format(i), j['tts_speech'], cosyvoice.sample_rate)
+```
+
+
 
 ### CosyVoice2-SS
 
