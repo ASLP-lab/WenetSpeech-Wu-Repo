@@ -160,12 +160,13 @@ Speech understanding performance on WenetSpeech-Wu-Bench
 
 ## ASR & Speech Understanding 
 
+
 This section describes the inference procedures for different speech models used in our experiments, including **Conformer-U2pp-Wu**, **Whisper-Medium-Wu**, **Step-Audio2-Wu-ASR** and **Step-Audio2-Wu-Und**.
-Different models are trained and inferred under different frameworks, with corresponding data formats.
+
 
 ---
 
-**Clone**
+##Clone
 
 - Clone the repo for Conformer-U2pp-Wu, Whisper-Medium-Wu
 ``` sh
@@ -179,9 +180,11 @@ git clone https://github.com/modelscope/ms-swift.git
 pip install transformers==4.53.3
 ```
 
-
+### Model download
+ The ASR and understanding models will be available at [WSWu-Understanding](https://huggingface.co/ASLP-lab/WenetSpeech-Wu-Speech-Understanding).
 
 ### Data Format
+Different models are trained and inferred under different frameworks, with corresponding data formats.
 
 #### Conformer-U2pp-Wu & Whisper-Medium-Wu
 
