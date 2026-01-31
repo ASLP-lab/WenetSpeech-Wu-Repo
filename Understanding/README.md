@@ -314,9 +314,5 @@ swift infer \
   --result_path results.jsonl
 ```
 
----
 
-
-
-```
 
