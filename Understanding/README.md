@@ -233,7 +233,7 @@ The inference script is identical to that of Step-Audio2 described above; only t
   "gender": "<audio>请根据语音的声学特征，判断说话人的性别，从男性、女性中选一个标签。",
   "emotion": "<audio>请根据语音的声学特征和语义，判断语音的情感，从中立、高兴、难过、惊讶、生气选一个标签。"
 }
-`
+```
 ---
 
 ## Conformer-U2pp-Wu
