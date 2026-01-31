@@ -32,7 +32,7 @@
 <p align="center">
 📑 <a href="https://arxiv.org/abs/2601.11027">Paper</a> &nbsp&nbsp | &nbsp&nbsp 
 🐙 <a href="https://github.com/ASLP-lab/WenetSpeech-Wu-Repo">GitHub</a> &nbsp&nbsp | &nbsp&nbsp 
-<!-- 🤗 <a href="">HuggingFace</a> -->
+🤗 <a href="https://huggingface.co/collections/ASLP-lab/wenetspeech-wu">HuggingFace</a>
 <br>
 <!-- 🖥️ <a href="">HuggingFace Space</a> &nbsp&nbsp | &nbsp&nbsp  -->
 🎤 <a href="https://hujingbin1.github.io/WenetSpeechWu-Demo-Page-Public/">Demo Page</a> &nbsp&nbsp | &nbsp&nbsp 
