@@ -531,6 +531,7 @@ python wenet/bin/recognize.py --gpu 0 \
 
 
 ## Step-Audio2-Wu-ASR & Step-Audio2-Wu-Und
+Please download the origin model:[Step-Audio 2 mini](https://huggingface.co/stepfun-ai/Step-Audio-2-mini)
 
 ```bash
 model_dir=Step-Audio-2-mini 
