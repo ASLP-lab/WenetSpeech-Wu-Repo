@@ -167,15 +167,16 @@ Different models are trained and inferred under different frameworks, with corre
 
 **Clone**
 
-- Clone the repo for Conformer-U2pp, Whisper-Medium
+- Clone the repo for Conformer-U2pp-Wu, Whisper-Medium-Wu
 ``` sh
 git clone https://github.com/wenet-e2e/wenet.git
 cd examples/aishell/whisper
 ```
 
-- Clone the repo for Conformer-U2pp, Whisper-Medium
+- Clone the repo for Step-Audio2-Wu-ASR，Step-Audio2-Wu-Und
 ``` sh
 git clone https://github.com/modelscope/ms-swift.git
+pip install transformers==4.53.3
 ```
 
 
