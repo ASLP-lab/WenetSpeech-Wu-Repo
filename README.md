@@ -45,12 +45,13 @@ This repository contains the official WenetSpeech-Wu dataset, the WenetSpeech-Wu
 <div align="center"><img width="800px" src="figs/overview2.png" /></div>
 <br>
 
+<!--
 ## 📢 Demo Page 
 
 The demo page provides audio data samples, ASR and TTS leaderboards, and the TTS samples.
 
 👉 **Demo:** [Demo Page](https://hujingbin1.github.io/WenetSpeechWu-Demo-Page-Public/)
-
+-->
 
 
 ## Download
