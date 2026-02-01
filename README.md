@@ -55,10 +55,10 @@ The demo page provides audio data samples, ASR and TTS leaderboards, and the TTS
 
 
 ## Download
-* The WenetSpeech-Wu dataset will be available at [WenetSpeech-Wu](https://huggingface.co/datasets/ASLP-lab/WenetSpeech-Wu).
-* The WenetSpeech-Wu benchmark will be  available at [WenetSpeech-Wu-Bench](https://huggingface.co/datasets/ASLP-lab/WenetSpeech-Wu-Bench).
-* The ASR and understanding models will be available at [WSWu-Understanding](https://huggingface.co/ASLP-lab/WenetSpeech-Wu-Speech-Understanding).
-* The TTS and instruct TTS models will be available at [WSWu-Generation](https://huggingface.co/ASLP-lab/WenetSpeech-Wu-Speech-Generation).
+* The WenetSpeech-Wu dataset are available at [WenetSpeech-Wu](https://huggingface.co/datasets/ASLP-lab/WenetSpeech-Wu).
+* The WenetSpeech-Wu benchmark are available at [WenetSpeech-Wu-Bench](https://huggingface.co/datasets/ASLP-lab/WenetSpeech-Wu-Bench).
+* The ASR and understanding models are available at [WSWu-Understanding](https://huggingface.co/ASLP-lab/WenetSpeech-Wu-Speech-Understanding).
+* The TTS and instruct TTS models are available at [WSWu-Generation](https://huggingface.co/ASLP-lab/WenetSpeech-Wu-Speech-Generation).
 
 
 
@@ -80,9 +80,9 @@ WenetSpeech-Wu is the first large-scale Wu dialect speech corpus with multi-dime
 
 We introduce WenetSpeech-Wu-Bench, the first publicly available, manually curated benchmark for Wu dialect speech processing, covering ASR, Wu-to-Mandarin AST, speaker attributes, emotion recognition, TTS, and instruct TTS, and providing a unified platform for fair evaluation.
 
-- **ASR:** Wu dialect ASR (9.75 hour, Shanghainese, Suzhounese, and Mandarin code-mixed speech). Evaluated by CER.
+- **ASR:** Wu dialect ASR (9.75 hour, including Shanghainese, Suzhounese, and Mandarin code-mixed speech). Evaluated by CER.
 - **Wu→Mandarin AST:** Speech translation from Wu dialects to Mandarin (3k utterances, 4.4h). Evaluated by BLEU.
-- **Speaker & Emotion:** Speaker gender/age prediction and emotion recognition on Wu speech. Evaluated by classification accuracy.
+- **Speaker Attributes & Emotion:** Speaker gender/age prediction and emotion recognition on Wu dialect. Evaluated by classification accuracy.
 - **TTS:** Wu dialect TTS with speaker prompting (242 sentences, 12 speakers). Evaluated by speaker similarity, CER, and MOS.
 - **Instruct TTS:** Instruction-following TTS with prosodic and emotional control. Evaluated by automatic accuracy and subjective MOS.
 
