@@ -703,6 +703,9 @@ Please cite our paper if you find this work useful:
 If you are interested in leaving a message to our research team, feel free to email asd6404112a@mail.nwpu.edu.cn or mcshao@mail.nwpu.edu.cn .
 
 
+You’re welcome to join our WeChat group for technical discussions, updates.
 <p align="center">
-    <img src="figs/npu@aslp.jpeg" width="500"/>
-</p
+  <span style="display: inline-block; margin-right: 10px;">
+    <img src="assets/wechat.png" width="300" alt="WeChat Group QR Code"/>
+  </span>
+</p>
