@@ -425,7 +425,7 @@ Performance of instruct TTS model.
 This section describes the inference procedures for different speech models used in our experiments, including **Conformer-U2pp-Wu**, **Whisper-Medium-Wu**, **Step-Audio2-Wu-ASR** and **Step-Audio2-Wu-Und**.
 Different models are trained and inferred under different frameworks, with corresponding data formats.
 
-For further details, please refer to [Understanding](Understanding/README.md)
+For more details, please refer to [Understanding](Understanding/README.md)
 
 ---
 <!--
