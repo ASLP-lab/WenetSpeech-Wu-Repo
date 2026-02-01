@@ -597,11 +597,13 @@ snapshot_download('ASLP-lab/WenetSpeech-Wu-Speech-Generation', local_dir='pretra
 
 #### CosyVoice2-Wu-SFT
 
+Prepare Model
 ``` sh
 ln -s ASLP-lab/WenetSpeech-Wu-Speech-Generation/CosyVoice2/* ASLP-lab/WenetSpeech-Wu-Speech-Generation/CosyVoice2-Wu-SFT/
 mv ASLP-lab/WenetSpeech-Wu-Speech-Generation/CosyVoice2-Wu-SFT/SFT.pt ASLP-lab/WenetSpeech-Wu-Speech-Generation/CosyVoice2-Wu-SFT/llm.pt
 ``` 
 
+Inference
 ``` python
 import sys
 sys.path.append('third_party/Matcha-TTS')
@@ -634,6 +636,7 @@ for i, j in enumerate(cosyvoice_sft.inference_zero_shot(text, prompt_text, promp
 
 #### CosyVoice2-Wu-instruct
 
+Prepare Model
 ``` sh
 ln -s ASLP-lab/WenetSpeech-Wu-Speech-Generation/CosyVoice2/* ASLP-lab/WenetSpeech-Wu-Speech-Generation/CosyVoice2-Wu-instruct-emotion/
 mv ASLP-lab/WenetSpeech-Wu-Speech-Generation/CosyVoice2-Wu-instruct-emotion/instruct_Emo.pt ASLP-lab/WenetSpeech-Wu-Speech-Generation/CosyVoice2-Wu-instruct-emotion/llm.pt
@@ -643,6 +646,7 @@ ln -s ASLP-lab/WenetSpeech-Wu-Speech-Generation/CosyVoice2/* ASLP-lab/WenetSpeec
 mv ASLP-lab/WenetSpeech-Wu-Speech-Generation/CosyVoice2-Wu-instruct-prosody/instruct_Pro.pt ASLP-lab/WenetSpeech-Wu-Speech-Generation/CosyVoice2-Wu-instruct-prosody/llm.pt
 ```
 
+Inference
 ``` python
 import sys
 sys.path.append('third_party/Matcha-TTS')
