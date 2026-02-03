@@ -45,9 +45,9 @@ This repository contains the official WenetSpeech-Wu dataset, the WenetSpeech-Wu
 <div align="center"><img width="800px" src="figs/overview2.png" /></div>
 <br>
 
-## ✨ Demo Video
+## Demo Video
 
-[![Watch the video](figs/95572B7F-B767-423A-B89B-128AA5BA5C60.jpg)](https://youtu.be/h293y859QSw)
+[![Watch the video](figs/95572B7F-B767-423A-B89B-128AA5BA5C60.jpeg)](https://youtu.be/h293y859QSw)
 
 ## Download
 * The WenetSpeech-Wu dataset are available at [WenetSpeech-Wu](https://huggingface.co/datasets/ASLP-lab/WenetSpeech-Wu).
