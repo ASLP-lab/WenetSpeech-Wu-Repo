@@ -706,9 +706,7 @@ You’re welcome to join our WeChat group for technical discussions, updates.
   <span style="display: inline-block; margin-right: 10px;">
     <img src="figs/wechat2.jpg" width="300" alt="WeChat Group QR Code"/>
   </span>
-</p>
-<p align="center">
-  <span style="display: inline-block; margin-right: 10px;">
+   <span style="display: inline-block; margin-right: 10px;">
     <img src="figs/wechat3.jpg" width="300" alt="WeChat Group QR Code"/>
   </span>
-</p
+</p>
